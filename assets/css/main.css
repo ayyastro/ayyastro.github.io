@@ -140,7 +140,7 @@ html {
 
 body, input, select, textarea {
 	color: #ffffff;
-	font-family: "Times New Roman", serif; /*cheng from "Source Sans Pro", sans-serif; to "Garamond", serif; or "Garamond", serif; by AYY */
+	font-family: "Garamond", serif; /*cheng from "Source Sans Pro", sans-serif; to "Garamond", serif; similiar to "Times New Roman", serif; by AYY */
 	font-weight: 300;
 	font-size: 1rem;
 	line-height: 1.65;
