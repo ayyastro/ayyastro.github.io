@@ -3,7 +3,7 @@
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-	Aiyuan Yang use the HTML5 template, then update and develop it. 
+	Aiyuan Yang use the HTML5 template, then update and modify it.
 -->
 <html>
 	<!-- 	This is the "Head" of the HTML document.
@@ -20,19 +20,31 @@
 			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
 			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
 		-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/slideshow.css" />
 		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
 			will load a separate set of CSS stylings from the file assets/css/noscript.css
 			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
 			available. 
 		-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<!-- The body is the location where your site's content will go -->
-	<body>
-	<p> This is a test html </p>
+		<!-- add html jquery by AYY, you need to create a b.html, and call it use <div data-include="b"> </div>  -->
+		<script src="assets/js/jquery_html.js"></script>
 
-			
+	</head>
+	<!--set for the slide show -->
+	<script src="assets/js/slidshow.js"></script> 
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<body class="is-preload">
+
+			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
+			<div id="wrapper">
+			<article>
+			<p> This is a test html </p>
+
+			</article>
 
 			<!--	This is the background image of the site.
 				All configuration of the background is done with CSS.
@@ -40,6 +52,7 @@
 				see how this element is styled. Look for comments pointing 
 				to where you can set a new background image.
 			-->
+				
 			<div id="bg"></div>
 
 			<!-- Scripts -->
@@ -48,6 +61,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		</div>
 
 	</body>
 </html>
