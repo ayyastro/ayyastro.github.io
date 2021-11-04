@@ -139,7 +139,7 @@ html {
 	}
 
 body, input, select, textarea {
-	color:#000000 ; /* #ffffff */
+	color:#ffffff ; /* #ffffff */
 	font-family: "Garamond", serif; /*cheng from "Source Sans Pro", sans-serif; to "Garamond", serif; similiar to "Times New Roman", serif; by AYY */
 	font-weight: 300;
 	font-size: 1rem;
@@ -1534,7 +1534,7 @@ button {
 		position: relative;
 		width: 40rem;
 		max-width: 100%;
-		background-color: #FFFFFF; /* original:rgba(27, 31, 34, 0.85);grayblue: #98AFC7; white:#FFFFFF;by AYY*/
+		background-color: #52595D; /* original:rgba(27, 31, 34, 0.85);grayblue: #98AFC7; white:#FFFFFF;ion gray: #52595D; by AYY*/
 		border-radius: 4px;
 		opacity: 0;
 	}
