@@ -1165,7 +1165,7 @@ button {
 	}
 
 	body.is-preload #bg:before {
-		background-color: rgb(88,88,88); /*change #0000 black to darkgrey rgb(88,88,88) by AYY*/
+		background-color: #98AFC7; /*change #0000 black to darkgrey rgb(88,88,88); bluegray #98AFC7 by AYY*/
 	}
 
 /* Wrapper */
