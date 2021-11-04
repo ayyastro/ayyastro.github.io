@@ -1165,7 +1165,7 @@ button {
 	}
 
 	body.is-preload #bg:before {
-		background-color: #98AFC7; /*change #0000 black to darkgrey rgb(88,88,88); bluegray #98AFC7 by AYY*/
+		background-color: #0000; /*change #0000 black to darkgrey rgb(88,88,88); bluegray #98AFC7 by AYY*/
 	}
 
 /* Wrapper */
@@ -1534,7 +1534,7 @@ button {
 		position: relative;
 		width: 40rem;
 		max-width: 100%;
-		background-color: rgba(27, 31, 34, 0.85);
+		background-color: #98AFC7; /* original:rgba(27, 31, 34, 0.85);grayblue: #98AFC7; white:#FFFFFF;by AYY*/
 		border-radius: 4px;
 		opacity: 0;
 	}
