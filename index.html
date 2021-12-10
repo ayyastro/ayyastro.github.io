@@ -20,7 +20,6 @@
 			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
 			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
 		-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/slideshow.css" />
 		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
@@ -31,12 +30,13 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!-- add html jquery by AYY, you need to create a b.html, and call it use <div data-include="b"> </div>  -->
 		<script src="assets/js/jquery_html.js"></script>
-
-	</head>
 	<!--set for the slide show -->
-	<script src="assets/js/slidshow.js"></script> 
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+	</head>
+	
 	<body class="is-preload">
 
 			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
@@ -1006,8 +1006,14 @@
       						<div class="item active">
         					<img src="images/outflow1.jpg" alt="outflow-wings-identification" style="width:350px;height:280px;float:right">
         					<div class="carousel-caption" style="width:250px;height:280px;text-align:left;float:left">
-						<p style="text-align:justify">This is the caption of the image1
-							</p>
+						<ol>
+						<li style="text-align:justify">
+							Outflow wings identification
+						</li>
+						<li style="text-align:justify">
+							Outflow red and blue lobes mapping
+						</li>
+						</ol>
         					</div>
       						</div>
 
@@ -1068,8 +1074,16 @@
 						<!-- slide show use carousel; include head: /link-4.1/css/bootstrap.min.css; script: jquery.min.js bootstrap.min.js -->
 					   <div class="container" style="width:600px">
 					<div id="menu" style="width:250px;text-align:justify;float:left">
-						 <a>this is the caption for the images;
-						     </a>
+						 <ol>
+						<li style="text-align:justify">
+							Distribution of Galactic HII regions
+						</li>
+						<li style="text-align:justify">
+							Radio spectral energy distribution of HII regions
+						</li>
+						<li style="text-align:justify">
+							Emission properties of HII regions from NIR to submm
+						</li>
 					</div>
 					  <div id="myCarousel" class="carousel slide" data-ride="carousel" 
 						  style="width:350px;text-align:center;float:right">
