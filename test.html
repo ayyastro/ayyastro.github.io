@@ -1,340 +1,65 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-	Aiyuan Yang use the HTML5 template, then update and modify it.
--->
-<html>
-	<!-- 	This is the "Head" of the HTML document.
-		It contains information that isn't displayed on the actual page, but is useful
-		for the web browser when loading the page	
-	-->
-	<head>
-		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-		<title>AiyuanYang</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
-			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
-			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
-			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
-		-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/slideshow.css" />
-		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
-			will load a separate set of CSS stylings from the file assets/css/noscript.css
-			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
-			available. 
-		-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<!-- add html jquery by AYY, you need to create a b.html, and call it use <div data-include="b"> </div>  -->
-		<script src="assets/js/jquery_html.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-	</head>
-	<!--set for the slide show -->
-	<script src="assets/js/slidshow.js"></script> 
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<body class="is-preload">
-					
-	<!-- This "div" wraps around all of our content and just changes how things are layed out -->
-			<div id="wrapper">
-		<!-- These are the "cards" that appear when you click the buttons on the main page -->
-				<div id="main">
-						<!-- Here is the "Research" card. -->
-						<article id="research">
-							<h2 class="major">Research</h2>
+<div class="container">
+  <h2>Carousel Example</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-							<p style="text-align:justify">
-								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
-									the next line.
-								-->
-								<b style="font-size:24px;text-align:center"> Project I: Molecular outflows</b>
-								<br> 
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
 
-								 
-								The formation processes of massive stars are unclear. 
-								Molecular outflows are common in the massive star formation, 
-								which is a usefull tool to understand the formation process of high-mass star.  
-								Outflows can be identified as CO lines showing high-velocity wings, 
-								with two spatially separated lobes that are respectively blue and red velocity shifted. 
-							
-								<li tyle="text-align:justify">
-								We identified a sample of ~1500 outflows by using the continuum data from 
-									<a href="https://atlasgal.mpifr-bonn.mpg.de/cgi-bin/ATLASGAL_DATABASE.cgi" 
-								   target="_blank">
-								<u>ATLASGAL</u></a> and the CO data from Galactic plane surveys: 
-								<a href="https://ui.adsabs.harvard.edu/abs/2016MNRAS.456.2885R/abstract" 
-								   target="_blank">
-								<u>CHIMPS</u></a>
-								and 
-								<a href="https://sedigism.mpifr-bonn.mpg.de/index.html" 
-								   target="_blank">
-								<u>SEDIGISM</u></a>.
-								Systematically discuss when outflow switches on, how it evolves, 
-									and what the impact on the matal clumps, 
-								details see 
-							    <a href="https://ui.adsabs.harvard.edu/abs/2018ApJS..235....3Y/abstract" 
-								   target="_blank" style="background-color:Tomato;color:white">
-								<u>Yang et al. 2018</u></a>.
-								</li>
+      <div class="item active">
+        <img src="images/apex1.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>LA is always so much fun!</p>
+        </div>
+      </div>
 
-								
-							</p>
-					<! -- ProjectI picture slide show start-->
-						<!-- slide show use carousel; include head: /link-4.1/css/bootstrap.min.css; script: jquery.min.js bootstrap.min.js -->
-					   <div class="container">
-						
-  					     <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:350px;!important;text-align:center">
-    						<!-- Indicators -->
-    						<ol class="carousel-indicators">
-      						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      						<li data-target="#myCarousel" data-slide-to="1"></li>
-						<li data-target="#myCarousel" data-slide-to="2"></li>
-   						 </ol>
+      <div class="item">
+        <img src="images/alma.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="images/Effelsberg.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+  
+    </div>
 
-    						<!-- Wrapper for slides -->
-    						<div class="carousel-inner">
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
 
-      						<div class="item active">
-        					<img src="images/outflow1.jpg" alt="outflow-wings-identification" style="width:100%;text-align:center">
-        					<div class="carousel-caption">
-        					</div>
-      						</div>
-
-      						<div class="item">
-        					<img src="images/outflow2.jpg" alt="outflow-map" style="width:350px;height:280px;text-align:center">
-        					<div class="carousel-caption">
-       						 </div>
-      						</div>
-							
-						<div class="item">
-        					<img src="images/outflow3.jpg" alt="outflow-map" style="width:350px;height:280px;text-align:center">
-        					<div class="carousel-caption">
-       						 </div>
-      						</div>
-							
-    					  </div>
-
-  					</div>
-					</div>
-					<!-- ProjectI picture slide show end -->
-							
-						<br>
-							<b style="font-size:24px;text-align: center"> Project II--- The birth of HII regions</b>
-								<br>
-				
-						When a massive star has “switched on” its UV illumination and ionised the surroundings gas to form an ionised region, 
-						i.e., HII region.
-						As massive stars reach the main sequence while still accreting material, the youngest 
-						and most compact HII region is a key phase to investigate the early development of massive stars.  
-						<li style="text-align: center">
-							We searched for HCHII regions using data from Galactic plane surveys of 
-							Radio (THOR, CORNISH, MAGPIS), FIR (Hi-GAL), MIR (GLIMPSE), NIR (UKIDSS), submm(ATLASGAL), 
-							and details please see 
-							<a href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.2681Y/abstract" 
-								   target="_blank" style="background-color:Tomato;color:white">
-								<u>Yang et al. 2019</u></a>. 
-						</li>
-						<li>
-							We built the radio SED between 1-26 GHz using VLA to identify new HCHII regions, 
-						and details please see 
-						<a href="https://ui.adsabs.harvard.edu/abs/2021A%26A...645A.110Y/abstract" 
-								   target="_blank" style="background-color:Tomato;color:white">
-								<u>Yang et al. 2021</u></a>. 
-							</li>
-						<li style="text-align: justify" >
-							As the younger the HII regions show broader radio recombination lines (RRLs), 
-							 RRLs is thus key to study the properties of young HII regions.
-							We conduct a multi-band surveys of radio recombination lines for a sample of young HII regions, 
-							and data observed bythe APEX, IRAM 30m, and Effelsberg 100m telescopes.
-							</li>
-						</p>
-							
-					<! -- ProjectII picture slide show start-->
-						<!-- slide show use carousel; include head: /link-4.1/css/bootstrap.min.css; script: jquery.min.js bootstrap.min.js -->
-					   <div class="container">
-						
-  					     <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:350px;!important;text-align:center">
-    						<!-- Indicators -->
-    						<ol class="carousel-indicators">
-      						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      						<li data-target="#myCarousel" data-slide-to="1"></li>
-						<li data-target="#myCarousel" data-slide-to="2"></li>
-						<li data-target="#myCarousel" data-slide-to="3"></li>
-   						 </ol>
-
-    						<!-- Wrapper for slides -->
-    						<div class="carousel-inner" style="float:left;text-align:center">
-
-      						<div class="item active" >
-        					<img src="images/hii.jpg" alt="multi-band HII" style="width:350px;height:280px;text-align:center">
-        					<div class="carousel-caption">
-        					</div>
-      						</div>
-
-      						<div class="item">
-        					<img src="images/hii1.jpg" alt="HII SED" style="width:350px;height:280px;text-align:center">
-        					<div class="carousel-caption">
-       						 </div>
-      						</div>
-							
-						<div class="item">
-        					<img src="images/hii2.jpg" alt="HII zoom in" style="width:350px;height:280px;text-align:center">
-        					<div class="carousel-caption">
-       						 </div>
-      						</div>
-							
-						<div class="item">
-        					<img src="images/hii3.jpg" alt="HII evolution" style="width:350px;height:280px;text-align:center">
-        					<div class="carousel-caption">
-       						 </div>
-      						</div>
-							
-    					   </div>
-
-
-  					</div>
-					 </div>
-					<!-- ProjectI picture slide show end -->
-					<br>
-					<b style="font-size:24px;text-align: center" > 
-					Project III---Young Planetary nebulae: kinematic distance and masers </b>
-					<br>
-					ISM gas photoionized by low-mass central stars also forms HII regions, called planetary nebulae
-					(PNe). So the physics governing PNe are basically the same as HII regions, with rising radio spectra for free-free
-					emission. The formation of PNe is one of the most poorly understood stages of stellar evolution. 
-					The presence of maser emissions are not expected in PNe unless these are extremely young. 
-					To date, only five PNe with H2O maser  
-					and seven PNe with OH maser have been confirmed 
-					(<a href="https://ui.adsabs.harvard.edu/abs/2017IAUS..323..141Z/abstract" 
-								   target="_blank">
-								<u>Zhang 2017</u></a>).   
-					Maser-emitting PNe are thus closely related to the formation and early evolution of PNe 
-					<br>
-					However, the distances of young PNe are not well determined. 
-					Among
-					the total of 3500 PNe (<a href="https://ui.adsabs.harvard.edu/abs/2014RMxAA..50..203K/abstract" 
-								   target="_blank">
-								<u>Kwitter et al. 2014</u></a>), 
-					only about 30 PNe have distance measurements with uncertainties less
-					than 20% 
-					(<a href="https://ui.adsabs.harvard.edu/abs/2015PrA....33..284Y/abstract" 
-								   target="_blank" style="background-color:Tomato;color:white">
-								<u>Yang et al. 2015</u></a>).  
-					Owing to the broadly distributed HI and CO emission, we measured the kinematic
-					distances of young and radio bright PNe, using the method in 
-					<a href="https://ui.adsabs.harvard.edu/abs/2008MNRAS.391L..54T/abstract" 
-								   target="_blank">
-								<u>Tian&Leahy 2008</u></a>  
-					to resolve the distance ambiguity,
-					giving distance uncertainties ranging from 10% to 50%. This is a significant improvement with uncertainties
-					of a factor of two or three smaller than most previous distance measurements 
-					for the young PNe with high extinction in the Galactic Plane 
-					(<a href="https://ui.adsabs.harvard.edu/abs/2016ApJS..223....6Y/abstract" 
-								   target="_blank" style="background-color:Tomato;color:white">
-								<u>Yang et al. 2016</u></a>).
-				
-				<! -- ProjectIII picture slide show start-->
-						<!-- slide show use carousel; include head: /link-4.1/css/bootstrap.min.css; script: jquery.min.js bootstrap.min.js -->
-					   <div class="container">
-						
-  					     <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:350px;!important;" align="center">
-    						<!-- Indicators -->
-    						<ol class="carousel-indicators">
-      						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      						<li data-target="#myCarousel" data-slide-to="1"></li>
-						<li data-target="#myCarousel" data-slide-to="2"></li>
-						<li data-target="#myCarousel" data-slide-to="3"></li>
-   						 </ol>
-
-    						<!-- Wrapper for slides -->
-    						<div class="carousel-inner">
-
-      						<div class="item active">
-        					<img src="images/pne.jpg" alt="multi-band HII" style="width:350px;height:280px;text-align:center">
-        					<div class="carousel-caption">
-        					</div>
-      						</div>
-
-      						<div class="item">
-        					<img src="images/pne1.jpg" alt="HII SED" style="width:350px;height:280px;text-align:center">
-        					<div class="carousel-caption">
-       						 </div>
-      						</div>
-							
-						<div class="item">
-        					<img src="images/pne2.jpg" alt="HII zoom in" style="width:350px;height:280px;text-align:center">
-        					<div class="carousel-caption">
-       						 </div>
-      						</div>
-							
-						<div class="item">
-        					<img src="images/pne3.jpg" alt="HII evolution" style="width:350px;height:280px;text-align:center">
-        					<div class="carousel-caption">
-       						 </div>
-      						</div>
-							
-    					   </div>
-
-    						<!-- Left and right controls -->
-    						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      						<span class="glyphicon glyphicon-chevron-left"></span>
-      						<span class="sr-only">Previous</span>
-    						</a>
-    						<a class="right carousel-control" href="#myCarousel" data-slide="next">
-     						 <span class="glyphicon glyphicon-chevron-right"></span>
-      						<span class="sr-only">Next</span>
-    						</a>
-  					 </div>
-					 </div>
-					<!-- ProjectIII picture slide show end -->
-							
-				</article>
-
-						
-			</div>
-
-					<!-- This is the footer that appears at the bottom of the page -->
-					<footer id="footer">
-						<!-- 	You can change "Untitled" to your name to show everyone that
-							this is your work.
-						-->
-							<!-- hitwebcounter Code START -->
-							<!-- Start of WebFreeCounter Code -->
-
-						<p class="copyright">&copy; Aiyuan Yang. Web. Counter: 
-						
-							<!-- Start of WebFreeCounter Code -->
-							<a href="https://www.webfreecounter.com/" target="_blank">
-							<img src="https://www.webfreecounter.com/hit.php?id=guvpdpfp&nd=6&style=2" 
-						     	border="0" alt="free counter"></a>
-							<!-- End of WebFreeCounter Code -->
-						</p>	
-
-					</footer>
-			
-			</div>
-
-			<!--	This is the background image of the site.
-				All configuration of the background is done with CSS.
-				Look in the file assets/css/main.css and search for "#bg" to
-				see how this element is styled. Look for comments pointing 
-				to where you can set a new background image.
-			-->
-			<div id="bg"></div>
-
-			
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			
-
-
-	</body>
+</body>
 </html>
-
