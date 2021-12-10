@@ -120,9 +120,8 @@ html {
 			font-size: 12pt;
 		}
 
-	}
-/*    from 736 to 992 AYY */
-	@media screen and (max-width: 992px) {
+	} 
+ 	@media screen and (max-width: 992px) {
 
 		html {
 			font-size: 11pt;
@@ -139,7 +138,7 @@ html {
 	}
 
 body, input, select, textarea {
-	color:#ffffff ; /* #ffffff */
+	color:#00001a ; /* #ffffff  to #31708f to #00001a */
 	font-family: "Garamond", serif; /*cheng from "Source Sans Pro", sans-serif; to "Garamond", serif; similiar to "Times New Roman", serif; by AYY */
 	font-weight: 300;
 	font-size: 1rem;
@@ -236,8 +235,8 @@ h6 {
 
    	See here for more: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 */
- /*cheng from 736px to 992px; by AYY */
-@media screen and (max-width: 992px) {
+
+ @media screen and (max-width: 736px) {
 
 	h1 {
 		font-size: 1.75rem;
@@ -692,8 +691,7 @@ input[type="radio"] + label:before {
 		.image.main img {
 			width: 100%;
 		}
-/*    from 736 to 992 AYY */
-	@media screen and (max-width: 992px) {
+ 	@media screen and (max-width: 736px) {
 
 		.image.main {
 			margin: 2rem 0;
@@ -1166,7 +1164,7 @@ button {
 	}
 
 	body.is-preload #bg:before {
-		background-color: #0000; /*change #0000 black to darkgrey rgb(88,88,88); bluegray #98AFC7 by AYY*/
+		background-color: #F9F9F9; /*change #0000 black to darkgrey rgb(88,88,88); bluegray #98AFC7; F9F9F9 by AYY*/
 	}
 
 /* Wrapper */
@@ -1207,8 +1205,7 @@ button {
 		}
 
 	}
-/*    from 736px to 992px AYY */
-	@media screen and (max-width: 992px) {
+ 	@media screen and (max-width: 736px) {
 
 		#wrapper {
 			padding: 2rem 1rem;
@@ -1417,9 +1414,8 @@ button {
 		}
 
 	}
-/*    from 736 to 992 AYY */
-
-	@media screen and (max-width: 992px) {
+ 
+	@media screen and (max-width: 736px) {
 
 		#header > * {
 			margin-top: 2rem;
@@ -1534,9 +1530,9 @@ button {
 		transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 		padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 		position: relative;
-		width: 40rem;
+		width: 65rem;   /* change from 45 rem to 65 rem by AYY */
 		max-width: 100%;
-		background-color: rgba(27, 31, 34, 0.85); /* original:rgba(27, 31, 34, 0.85);grayblue: #98AFC7; white:#FFFFFF;dark gray: #3A3B3C; by AYY*/
+		background-color: F9F9F9; /* original:rgba(27, 31, 34, 0.85);grayblue: #98AFC7; white:#FFFFFF;dark gray: #3A3B3C; F9F9F9; by AYY*/
 		border-radius: 4px;
 		opacity: 0;
 	}
@@ -1588,9 +1584,8 @@ button {
 			#main article .close:active:before {
 				background-color: rgba(255, 255, 255, 0.175);
 			}
-/*    from 736 to 992 AYY */
-
-	@media screen and (max-width: 992px) {
+ 
+	@media screen and (max-width: 736px) {
 
 		#main article {
 			padding: 3.5rem 2rem 0.5rem 2rem ;
