@@ -1164,7 +1164,7 @@ button {
 	}
 
 	body.is-preload #bg:before {
-		background-color: #ffffff; /*change #0000 black to darkgrey rgb(88,88,88); bluegray #98AFC7; F9F9F9 by AYY*/
+		background-color: #0000; /*change #0000 black to darkgrey rgb(88,88,88); bluegray #98AFC7; F9F9F9 by AYY*/
 	}
 
 /* Wrapper */
@@ -1532,7 +1532,7 @@ button {
 		position: relative;
 		width: 65rem;   /* change from 45 rem to 65 rem by AYY */
 		max-width: 100%;
-		background-color: F9F9F9; /* original:rgba(27, 31, 34, 0.85);grayblue: #98AFC7; white:#FFFFFF;dark gray: #3A3B3C; F9F9F9; by AYY*/
+		background-color: #F9F9F9; /* original:rgba(27, 31, 34, 0.85);grayblue: #98AFC7; white:#FFFFFF;dark gray: #3A3B3C; #F9F9F9; by AYY*/
 		border-radius: 4px;
 		opacity: 0;
 	}
