@@ -121,8 +121,8 @@ html {
 		}
 
 	}
-
-	@media screen and (max-width: 736px) {
+/*    from 736 to 992 AYY */
+	@media screen and (max-width: 992px) {
 
 		html {
 			font-size: 11pt;
@@ -692,8 +692,8 @@ input[type="radio"] + label:before {
 		.image.main img {
 			width: 100%;
 		}
-
-	@media screen and (max-width: 736px) {
+/*    from 736 to 992 AYY */
+	@media screen and (max-width: 992px) {
 
 		.image.main {
 			margin: 2rem 0;
@@ -1207,8 +1207,8 @@ button {
 		}
 
 	}
-
-	@media screen and (max-width: 736px) {
+/*    from 736px to 992px AYY */
+	@media screen and (max-width: 992px) {
 
 		#wrapper {
 			padding: 2rem 1rem;
@@ -1417,8 +1417,9 @@ button {
 		}
 
 	}
+/*    from 736 to 992 AYY */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 992px) {
 
 		#header > * {
 			margin-top: 2rem;
@@ -1587,8 +1588,9 @@ button {
 			#main article .close:active:before {
 				background-color: rgba(255, 255, 255, 0.175);
 			}
+/*    from 736 to 992 AYY */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 992px) {
 
 		#main article {
 			padding: 3.5rem 2rem 0.5rem 2rem ;
