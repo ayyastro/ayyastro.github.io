@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-		border-bottom: solid 1px #ffffff;
+		border-bottom: solid 1px #00001a;  /* change from #ffffff to black  00001a by AYY*/
 		width: -moz-max-content;
 		width: -webkit-max-content;
 		width: -ms-max-content;
@@ -1530,7 +1530,7 @@ button {
 		transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 		padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 		position: relative;
-		width: 65rem;   /* change from 45 rem to 65 rem by AYY */
+		width: 55rem;   /* change from 45 rem to 55 rem by AYY */
 		max-width: 100%;
 		background-color: #F9F9F9; /* original:rgba(27, 31, 34, 0.85);grayblue: #98AFC7; white:#FFFFFF;dark gray: #3A3B3C; #F9F9F9; by AYY*/
 		border-radius: 4px;
