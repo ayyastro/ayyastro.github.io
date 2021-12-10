@@ -236,7 +236,8 @@ h6 {
 
    	See here for more: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 */
-@media screen and (max-width: 736px) {
+ /*cheng from 736px to 992px; by AYY */
+@media screen and (max-width: 992px) {
 
 	h1 {
 		font-size: 1.75rem;
